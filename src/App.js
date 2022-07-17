@@ -48,7 +48,7 @@ function App() {
             <Route path="/" element={<DashBoard data={{user,setUser}}/>}/>
             <Route path="/adduser" element={<CreateUser data={{user,setUser}}/>}/>
             <Route path='/edit-user/:id' element = {<EditUser data={{user,setUser}}/>}/>
-            <Route path="*" element={<Navigate to='/dashboard'/>}/>
+            <Route path="*" element={<Navigate to='/'/>}/>
           </Routes>
         </div>
       

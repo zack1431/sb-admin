@@ -33,14 +33,6 @@ function SideBar(){
                 </Link>
             </li>
 
-            <li className="nav-item active">
-                <Link to="/edituser">
-                    <a className="nav-link" href="index.html">
-                    <i className="fas fa-user-edit"></i>
-                    <span>Edit User</span></a>
-                </Link>
-            </li>
-
             
             <hr className="sidebar-divider" />
 
